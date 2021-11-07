@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" href="css/index.css">
+        <title>Proiect web - Todos</title>
+    </head>
+
+    <body onload="get_data()">
+        <p class="title">todos</p>
+        <div id="container">
+            <div class="form_container">
+                <form>
+                    <input type="button" id="input_button">
+                    <input type="text" placeholder="What needs to be done?" id="input_text">
+                </form>
+            </div>
+            <div id="container-footer">
+                <p id="footer_counter">0 items left</p>
+                <div id="middle-container">
+                    <input type="button" value="All" id="footer_button1" class="footerbtn selected">
+                    <input type="button" value="Active" id="footer_button2" class="footerbtn">
+                    <input type="button" value="Completed" id="footer_button3" class="footerbtn">
+                </div>
+                <input type="button" value="Clear completed" id="footer_button4" class="footerbtn">
+            </div>
+        </div>
+        <div class="substrate1"></div>
+        <div class="substrate2"></div>
+        <script src="javascripts/index.js"></script>
+    </body>
+</html>

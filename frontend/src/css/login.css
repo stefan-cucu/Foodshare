@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+.Login {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1085%26quot%3b)' fill='none'%3e%3cpath d='M1009.5027550951398 78.63398284914759L1080.815865708493 20.885764516984793 1023.0676473763302-50.42734609636845 951.7545367629771 7.320872235794354z' fill='rgba(52%2c 152%2c 219%2c 0.82)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1360.2542580813904 515.99989210523L1457.3748414436805 478.71879309078764 1352.892901240872 351.6784675545735z' fill='rgba(52%2c 152%2c 219%2c 0.82)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1161.654%2c141.517C1187.226%2c142.381%2c1213.988%2c132.266%2c1225.735%2c109.535C1236.831%2c88.065%2c1224.83%2c63.967%2c1212.461%2c43.204C1200.496%2c23.121%2c1185.031%2c1.952%2c1161.654%2c1.972C1138.299%2c1.992%2c1122.263%2c22.832%2c1110.995%2c43.289C1100.226%2c62.84%2c1094.428%2c85.605%2c1104.659%2c105.443C1115.705%2c126.86%2c1137.57%2c140.703%2c1161.654%2c141.517' fill='rgba(52%2c 152%2c 219%2c 0.82)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M634.4014933336334 300.30917213921424L777.4580469241058 373.2001269105235 707.2924481049427 157.25261854874182z' fill='rgba(52%2c 152%2c 219%2c 0.82)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M939.410896044674 139.99840335343384L893.4386877032143 234.25539872181236 987.6956830715928 280.227607063272 1033.6678914130525 185.9706116948935z' fill='rgba(52%2c 152%2c 219%2c 0.82)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1181.3450475370162 568.4473405502642L1129.0329482074164 438.9703512249647 1051.8680582117167 620.759439879864z' fill='rgba(52%2c 152%2c 219%2c 0.82)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1314.094160159289 357.555023135543L1405.3777433648709 394.4359847388037 1442.2587049681315 303.15240153322196 1350.9751217625496 266.2714399299613z' fill='rgba(52%2c 152%2c 219%2c 0.82)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M174.861%2c534.607C228.811%2c534.374%2c266.161%2c487.925%2c293.848%2c441.62C322.558%2c393.605%2c347.444%2c337.757%2c322.51%2c287.677C295.378%2c233.184%2c235.657%2c199.554%2c174.861%2c202.637C118.343%2c205.503%2c76.495%2c250.893%2c51.057%2c301.444C28.374%2c346.52%2c30.413%2c398.087%2c54.078%2c442.656C79.512%2c490.555%2c120.629%2c534.841%2c174.861%2c534.607' fill='rgba(52%2c 152%2c 219%2c 0.82)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M291.9418460081919 201.42852634155696L275.9041275236991 100.17035696815933 132.03573270584903 174.8560193815972z' fill='rgba(52%2c 152%2c 219%2c 0.82)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M887.9538045111093 523.2760412832245L740.0628589524697 515.3840678139935 796.8160919631401 631.7454394778163z' fill='rgba(52%2c 152%2c 219%2c 0.82)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M716.956254762679 120.87025090425703L609.5530406922958 217.57653922381684 813.6625430822388 228.27346497464032z' fill='rgba(52%2c 152%2c 219%2c 0.82)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M619.519%2c335.387C647.049%2c335.678%2c665.705%2c309.47%2c677.454%2c284.571C687.377%2c263.542%2c684.92%2c240.188%2c674.171%2c219.569C662.36%2c196.913%2c644.98%2c175.572%2c619.519%2c173.442C590.573%2c171.02%2c559.5%2c182.978%2c546.342%2c208.874C533.964%2c233.235%2c549.983%2c259.717%2c563.664%2c283.37C577.317%2c306.974%2c592.253%2c335.099%2c619.519%2c335.387' fill='rgba(52%2c 152%2c 219%2c 0.82)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M31.053%2c156.476C48.697%2c155.964%2c66.505%2c150.44%2c75.736%2c135.395C85.36%2c119.708%2c85.538%2c99.368%2c75.591%2c83.883C66.312%2c69.438%2c48.187%2c64.736%2c31.053%2c65.833C15.892%2c66.803%2c3.977%2c76.474%2c-4.596%2c89.016C-14.878%2c104.059%2c-26.872%2c122.015%2c-18.359%2c138.125C-9.561%2c154.774%2c12.23%2c157.022%2c31.053%2c156.476' fill='rgba(52%2c 152%2c 219%2c 0.82)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M591.411%2c759.996C645.815%2c759.429%2c706.42%2c755.342%2c734.9%2c708.985C764.307%2c661.12%2c746.604%2c601.407%2c718.85%2c552.565C690.678%2c502.988%2c648.392%2c458.626%2c591.411%2c456.474C531.176%2c454.199%2c476.455%2c490.17%2c446.13%2c542.264C415.61%2c594.693%2c408.974%2c661.569%2c442.645%2c712.032C473.64%2c758.484%2c535.571%2c760.578%2c591.411%2c759.996' fill='rgba(52%2c 152%2c 219%2c 0.82)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M808.4161158228242 317.19337452121863L726.8230378873512 257.9125334102417 749.1352747118472 398.7864524566916z' fill='rgba(52%2c 152%2c 219%2c 0.82)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1481.558853095947 11.242760736413874L1338.7563204314306-27.02106256816231 1300.4924971268545 115.78147009635403 1443.2950297913708 154.04529340093023z' fill='rgba(52%2c 152%2c 219%2c 0.82)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1085'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Login .container {
+    width: 60vw;
+    height: 60vh;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    overflow: hidden;
+    position: relative;
+    max-width: 100%;
+    min-height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Login h1 {
+    font-weight: bold;
+    margin: 0;
+}
+
+.Login p {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    margin: 20px 0 30px;
+}
+
+.Login span {
+    font-size: 12px;
+}
+
+.Login a {
+    font-size: 14px;
+    text-decoration: none;
+    margin: 15px 0;
+}
+
+.Login button {
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: white;
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+}
+
+
+.Login button:active {
+    transform: scale(0.95);
+}
+
+.Login button:focus {
+    outline: none;
+}
+
+.Login button.ghost {
+    background-color: transparent;
+    border-color: #ffffff;
+}
+
+.Login form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+    text-align: center;
+}
+
+.Login input {
+    background-color: rgb(248,248,248);
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+}
+
+.social-container {
+    margin: 20px 0;
+}
+
+.social-container a {
+    border: 1px solid #dddddd;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    height: 40px;
+    width: 40px;
+}
+
+.form-container {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    transition: all 0.6s ease-in-out;
+}
+
+.sign-in-container {
+    left: 0;
+    width: 50%;
+    z-index: 2;
+}
+
+.sign-up-container {
+    left: 0;
+    width: 50%;
+    opacity: 0;
+    z-index: 1;
+}
+
+.container.right-panel-active .sign-in-container {
+    transform: translateX(100%);
+    opacity: 0;
+}
+
+.container.right-panel-active .sign-up-container {
+    transform: translateX(100%);
+    opacity: 1;
+    z-index: 5;
+    animation: show 0.6s;
+}
+
+@keyframes show {
+    0%,
+    49.99% {
+        opacity: 0;
+        z-index: 1;
+    }
+
+    50%,
+    100% {
+        opacity: 1;
+        z-index: 5;
+    }
+}
+
+.overlay-container {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    transition: transform 0.6s ease-in-out;
+    z-index: 100;
+}
+
+.container.right-panel-active .overlay-container {
+    transform: translateX(-100%);
+}
+
+.overlay {
+    background-color: #3498DB;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpath fill='%234ba5db' d='M486 705.8c-109.3-21.8-223.4-32.2-335.3-19.4C99.5 692.1 49 703 0 719.8V800h843.8c-115.9-33.2-230.8-68.1-347.6-92.2C492.8 707.1 489.4 706.5 486 705.8z'/%3E%3Cpath fill='%2362b2db' d='M1600 0H0v719.8c49-16.8 99.5-27.8 150.7-33.5c111.9-12.7 226-2.4 335.3 19.4c3.4 0.7 6.8 1.4 10.2 2c116.8 24 231.7 59 347.6 92.2H1600V0z'/%3E%3Cpath fill='%237ac0dc' d='M478.4 581c3.2 0.8 6.4 1.7 9.5 2.5c196.2 52.5 388.7 133.5 593.5 176.6c174.2 36.6 349.5 29.2 518.6-10.2V0H0v574.9c52.3-17.6 106.5-27.7 161.1-30.9C268.4 537.4 375.7 554.2 478.4 581z'/%3E%3Cpath fill='%2391cddc' d='M0 0v429.4c55.6-18.4 113.5-27.3 171.4-27.7c102.8-0.8 203.2 22.7 299.3 54.5c3 1 5.9 2 8.9 3c183.6 62 365.7 146.1 562.4 192.1c186.7 43.7 376.3 34.4 557.9-12.6V0H0z'/%3E%3Cpath fill='%23A8DADC' d='M181.8 259.4c98.2 6 191.9 35.2 281.3 72.1c2.8 1.1 5.5 2.3 8.3 3.4c171 71.6 342.7 158.5 531.3 207.7c198.8 51.8 403.4 40.8 597.3-14.8V0H0v283.2C59 263.6 120.6 255.7 181.8 259.4z'/%3E%3Cpath fill='%23b9e1e3' d='M1600 0H0v136.3c62.3-20.9 127.7-27.5 192.2-19.2c93.6 12.1 180.5 47.7 263.3 89.6c2.6 1.3 5.1 2.6 7.7 3.9c158.4 81.1 319.7 170.9 500.3 223.2c210.5 61 430.8 49 636.6-16.6V0z'/%3E%3Cpath fill='%23cbe9ea' d='M454.9 86.3C600.7 177 751.6 269.3 924.1 325c208.6 67.4 431.3 60.8 637.9-5.3c12.8-4.1 25.4-8.4 38.1-12.9V0H288.1c56 21.3 108.7 50.6 159.7 82C450.2 83.4 452.5 84.9 454.9 86.3z'/%3E%3Cpath fill='%23dcf0f1' d='M1600 0H498c118.1 85.8 243.5 164.5 386.8 216.2c191.8 69.2 400 74.7 595 21.1c40.8-11.2 81.1-25.2 120.3-41.7V0z'/%3E%3Cpath fill='%23eef8f8' d='M1397.5 154.8c47.2-10.6 93.6-25.3 138.6-43.8c21.7-8.9 43-18.8 63.9-29.5V0H643.4c62.9 41.7 129.7 78.2 202.1 107.4C1020.4 178.1 1214.2 196.1 1397.5 154.8z'/%3E%3Cpath fill='%23FFFFFF' d='M1315.3 72.4c75.3-12.6 148.9-37.1 216.8-72.4h-723C966.8 71 1144.7 101 1315.3 72.4z'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;color: #ffffff;
+    position: relative;
+    left: -100%;
+    height: 100%;
+    width: 200%;
+    transform: translateX(0);
+    transition: transform 0.6s ease-in-out;
+}
+
+.container.right-panel-active .overlay {
+    transform: translateX(50%);
+}
+
+.overlay-panel {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+    text-align: center;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    color: black;
+    transform: translateX(0);
+    transition: transform 0.6s ease-in-out;
+}
+
+.overlay-left {
+    transform: translateX(-20%);
+}
+
+.container.right-panel-active .overlay-left {
+    transform: translateX(0);
+}
+
+.overlay-right {
+    right: 0;
+    transform: translateX(0);
+}
+
+.container.right-panel-active .overlay-right {
+    transform: translateX(20%);
+}
+
+.alert {
+    margin-top: 2vh;
+    width: 15vw;
+    height: 8vh;
+    background-color: rgba(255, 100, 90, 0.6);
+    border: 2px darkred solid;
+    border-radius: 5%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    opacity: 0;
+    transition: 1s;
+    font-size: 0.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alert p {
+    color: black;
+}
+
+.alert.alertActive {
+    opacity: 1;
+    transition: 1s;
+}
+
+.pass-reset-container {
+    display: none;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    transition: all 0.6s ease-in-out;
+}
+
+.pass-reset-container.resetActive {
+    display: flex;
+}
