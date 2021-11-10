@@ -28,6 +28,7 @@ import logoImg from '../svg/foodshare.png'
 import manImg from '../svg/man2.png'
 
 import { firebase } from '../Config';
+import mapKey from '../ApiKey.json';
 import { useHistory } from 'react-router-dom';
 
 const mapContainerStyle = {
@@ -50,7 +51,7 @@ const auth = firebase.auth();
 function Profile() {
 
     const { isLoaded, loadError } = useLoadScript({
-        googleMapsApiKey: "AIzaSyAk9CsNJLV3EYznHBhxuQt21PCw60uK_0U",
+        googleMapsApiKey: mapKey.key,
         libraries: ["places"]
     });
 

@@ -17,6 +17,7 @@ import {
 } from "@reach/combobox";
 
 import model from '../model/model.json';
+import mapKey from '../ApiKey.json';
 
 import {
     GoogleMap,
@@ -55,7 +56,7 @@ const center = {
 
 function Request() {
     const { isLoaded, loadError } = useLoadScript({
-        googleMapsApiKey: "AIzaSyAk9CsNJLV3EYznHBhxuQt21PCw60uK_0U",
+        googleMapsApiKey: mapKey.key,
         libraries: ["places"]
     });
 
