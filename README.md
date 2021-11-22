@@ -5,6 +5,11 @@
 <p align="center">
  <img width="30%"  src="https://raw.githubusercontent.com/StefanCucu/smarthack-foodshare/main/frontend/src/svg/foodshare.png">
 </p>
+
+<p align="center"> 
+Winner of the Inovation Prize from Société Générale during SmartHack 2021 
+</p>
+
 <p align="justify"> 
 Web application that helps large retail shops who are willing to donate food items approaching their expiration date, by putting them in contact with volunteers willing to transport them to homeless shelters.
     <br> 
